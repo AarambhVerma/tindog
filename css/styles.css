@@ -68,7 +68,7 @@ html{
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
-  right: 30%;
+  right: 10%;
 }
 
 .features{
@@ -181,4 +181,21 @@ html{
 .footer{
   text-align: center;
   padding: 4rem;
+}
+
+
+@media (max-width: 1080px) {
+  .main-heading{
+    text-align: center;
+  }
+  .iphone6{
+    transform: rotate(0deg);
+    position: relative;    
+  }
+
+  .iphone-banner, .main-heading{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
 }
