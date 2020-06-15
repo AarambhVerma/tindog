@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#title, #testimonials, #press, #cta{
+  background-color: #ff4c55;
+  color: white
+}
+
+#features, #footer{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.row{
+  padding-bottom: 2rem;
+}
+
+.main-heading {
+  font-size: 3rem;
+  line-height: 1.7;
+  font-weight: 500;
+  color: white;
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.btn {
+  margin: 2rem 0.5rem;
+}
+
+.iphone-banner{
+  margin-top: 4rem;
+}
+
+.iphone6 {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.features{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  text-align: center;
+}
+
+.fas{
+  padding: 1.5rem;
+  color: #ff4c55;
+}
+
+.features h3{
+  font-size: 20px;
+}
+
+.features{
+  font-size: 16px;
+}
+
+.features-item p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.testimonial-text{
+  margin: 7rem 10rem 2.5rem;
+  font-size: 2.5rem;
+}
+
+.carousel-inner{
+  text-align: center;
+  padding-bottom: 7rem;
+}
+
+.testimonial-image{
+  border-radius: 50%;
+  width: 6rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.press{
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.logo-press{
+  width: 15%;
+  margin: 2rem;
+}
+
+.card-body{
+  padding-top: 2rem;
+  padding-bottom: 10px;
+}
+
+.signup{
+  padding-top: 10px;
+}
+
+.card-title{
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+
+.card-header{
+  font-size: 1.5rem;
+}
+
+.list-group-item p{
+  margin-bottom: 0;
+}
+
+.price-btn{
+  margin: 0;
+}
+
+.pricing{
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.pricing-head{
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.pricing-sub-head{
+  margin-bottom: 3rem;
+}
+
+.cta{
+  text-align: center;
+  padding: 6rem;
+}
+.cta-heading{
+  text-align: center;
+  margin: 0 4rem 2rem;
+}
+
+.btn-foot{
+  color: black;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer{
+  text-align: center;
+  padding: 4rem;
+}
